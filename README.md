@@ -5,6 +5,8 @@ This simple chatbot leverages either OpenAI or Ollama for its AI capabilities.
 OpenAI: Choose from GPT-3.5-Turbo or GPT-4-Turbo models within the app. Estimated costs are shown after each response. Use !thanks to restart conversations and reduce costs.
 Ollama: Run the app with `--ollama` and specify your model name in .env (default: "gemma:2b").
 
+Modified code from https://github.com/jiberwabish/Terminal-Assistant to include the functionality of using local LLM models insted of just OpenAI ChatGPT.
+
 ## Installation and Setup
 
 1. **Python**: Ensure Python 3.10 or higher is installed on your system.
